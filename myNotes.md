@@ -18,10 +18,10 @@ will need to functions, a createPost() and a getPost()
 
     What will happen here?
     function createPost(post) {
-  setTimeout(function() {
-    post.push(post);
-  }, 2000);
-}
+      setTimeout(function() {
+      post.push(post);
+    }, 2000);
+  }
 
 function getPosts() {
   setTimeout(function() {
