@@ -33,3 +33,6 @@ function getPosts() {
 }
 
 Only post one and two would show if you used createPost because it takes two seconds and our getPost have already retrieved the data it was asked to retrieve and it was done in one second. now, back up to the next thing in-line which is adding a new post. 
+
+This is where CALLBACKS come in the picture.
+  - 
