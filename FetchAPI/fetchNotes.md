@@ -1,0 +1,1 @@
+.fetch() returns Promises. As with promises, it uses the .then() method
