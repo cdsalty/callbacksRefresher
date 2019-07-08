@@ -14,7 +14,7 @@ function createPost(post){
       } else {
         reject('Error: Something is terribly wrong')
       }
-      resolve(); // replaced 'callback()' with resolve()
+      resolve(); 
     }, 2000);
   });
 }
@@ -22,7 +22,8 @@ function createPost(post){
 function getPosts(){
   setTimeout(function() {
     let output = ''; 
-    posts.forEach(function(post){   // go through the posts. forEach 'post' add a list item to it and refer back to it's title
+    posts.forEach(function(post){   
+    // go through the posts. forEach 'post' add a list item to it and refer back to it's title
       output += `<li>${post.title}</li>`
     });
     document.body.innerHTML = output;
