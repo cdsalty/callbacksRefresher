@@ -1,0 +1,2 @@
+- Async automatically returns a Promise.
+- Await used once the promise is resolved, specifically 'res' (response)
